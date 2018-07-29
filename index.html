@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <title>CodeBlue</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+
+<!--Start Header-->
+  <header>
+    <div class="container">
+      <div class="row">
+     <div class="half1 ml col-sm"><span>C<img src="img/5.png">DE</span><br><img src="img/6.png"><br>
+      <span >BLUE</span>
+     </div>
+        <div class="half2 col-sm">
+          <i class="fa fa-facebook fa-lg"></i>
+          <i class="fa fa-twitter fa-lg"></i>
+          <i class="fa fa-google-plus fa-lg"></i>
+          <i class="fa fa-skype fa-lg"></i>
+          <i class="fa fa-whatsapp fa-lg"></i>
+</div>
+   </div>
+   </div>
+  </header>
+<!--End Header-->
+<!--Start Section-->
+<section>
+  <div class="content">
+     <div class="over">
+       <!--مستشفيات-->
+       <div id="hospital">
+         <h5>النوع</h5>
+         <select class="form-control form-control-md">
+         <option>عامه</option>
+         <option> خاصه</option>
+       </select>
+       <h5>التخصص</h5>
+       <select class="form-control form-control-md">
+       <option>الاستقبال</option>
+       <option>الجهاز الهاضمي</option>
+       <option>الاورام</option>
+       <option>المسالك البوليه</option>
+       <option>الباطنه</option>
+       <option>الرمد</option>
+       <option>طب الاطفال</option>
+       <option>الشرطه</option>
+       <option>القوات المسلحه</option>
+     </select>
+     <h5>الحي او المنطقه</h5>
+     <select class="form-control form-control-md">
+     <option>المنصورة</option>
+     <option>طلخا</option>
+     <option>بلقاس</option>
+     <option>سندوب</option>
+     <option>الجيزه</option>
+     <option>عين شمس</option>
+     </select>
+      <button type="button" class="btn btn-info btn-lg btn-block">بحث<i class="fa fa-search"></i></button>
+     </div>
+     <!--عيادات-->
+     <div id="clinic">
+       <h5>اسم الدكتور</h5>
+     <input class="form-control form-control-md" type="text">
+     <h5>الدرجه</h5>
+     <select class="form-control form-control-md">
+     <option>اخصائي</option>
+     <option>استاذ بكلية الطب</option>
+     <option>استاذ مساعد</option>
+     <option>استشاري</option>
+     <option>دكتوراه</option>
+     <option>ماجستير</option>
+   </select>
+     <h5>التخصص</h5>
+     <select class="form-control form-control-md">
+     <option>الجهاز الهاضمي</option>
+     <option>الاورام</option>
+     <option>المسالك البوليه</option>
+     <option>الباطنه</option>
+     <option>الرمد</option>
+     <option>طب الاطفال</option>
+     <option>نساء و ولاده</option>
+   </select>
+   <h5>الحي او المنطقه</h5>
+   <select class="form-control form-control-md">
+   <option>المنصورة</option>
+   <option>طلخا</option>
+   <option>بلقاس</option>
+   <option>سندوب</option>
+   <option>الجيزه</option>
+   <option>عين شمس</option>
+   </select>
+   <button type="button" class="btn btn-info btn-lg btn-block">
+    بحث<i class="fa fa-search"></i></button>
+     </div>
+     <!--صيدليات-->
+     <div id="pharmacy">
+       <h5>اسم الصيدليه</h5>
+     <input class="form-control form-control-md" type="text">
+    <h5>الحي او المنطقه</h5>
+    <select class="form-control form-control-md">
+    <option>المنصورة</option>
+    <option>طلخا</option>
+    <option>بلقاس</option>
+    <option>سندوب</option>
+    <option>الجيزه</option>
+    <option>عين شمس</option>
+    </select>
+     <button type="button" class="btn btn-info btn-lg btn-block">بحث<i class="fa fa-search"></i></button>
+   </div>
+   <!--تسجبل دخول-->
+   <div id="login">
+     <h5>الاسم او البريد الالكتروني</h5>
+   <input class="form-control form-control-md " type="text" required>
+   <h5>كلمة المرور</h5>
+   <input class="form-control form-control-md" type="password" required>
+  <input class="form-check-input position-static" type="checkbox">
+   <span> تذكرني</span>
+ <button type="button" class="btn btn-info btn-lg btn-block">دخول</button>
+ <p>نسيت<label>كلمة المرور..!</label></p>
+  <button type="button" class="btn btn-secondary btn-lg btn-block">انشاء حساب جديد</button>
+</div>
+<!--تسجبل جد-->
+<div id="signup">
+<input class="form-control form-control-md" type="text" name="user1"required placeholder="الاسم الاول">
+<input class="form-control form-control-md " type="text" name="user2" placeholder="الاسم الاخير"  required>
+<input class="form-control form-control-md " type="email" name="email" placeholder="البريد الالكتروني" required>
+<input class="form-control form-control-md" type="password" name="password" placeholder="كلمة المرور"required>
+<h5>النوع</h5>
+<select class="form-control form-control-md">
+<option>ذكر</option>
+<option>انثي</option>
+<input class="form-check-input position-static" type="checkbox" name="remember me">
+<span> تذكرني</span>
+<button type="submit" class="btn btn-info btn-lg btn-block">تسجيل</button>
+</div>
+    </div>
+  </div>
+<aside>
+  <div class="container">
+    <div class="row">
+    <div  class="ui-layout-resizer ml" title="Resize" aria-disabled="false"></div>
+    <ul class="list-group">
+ <li class="list-group-item active" data-target="#hospital">مستشفيات</li>
+ <li class="list-group-item" data-target="#clinic">عيادات</li>
+ <li class="list-group-item" data-target="#pharmacy">صيدليات</li>
+ <li class="list-group-item" data-target="#login">تسجيل دخول</li>
+ </ul>
+  </aside>
+</div>
+</div>
+</section>
+<!--End Section-->
+<!--Start goals-->
+<article>
+<div class="goal">
+<div class="container">
+<h4>هدف الموقع<i class="fa fa-quote-left"></i></h4>
+<ul>
+  <li>يهدف الموقع الي سهولة وصول المريض للمستشفيات الافرب اليه ان كان متواجدا في مكان جديد لا يعرفه.</li>
+  <li> يسهل وصوله للعيادات القريبه التي بها التخصص المتعلق باعراضه الاوليه ليتمكن من استشارة الطبيب المختص.
+  <li>نمدك بالمعلومات (العنوان و رقم التليفون) لتسهيل التواصل مع الطبيب او الصيدليه التي تبحث عنها.</li>
+
+</ul>
+</div>
+</div>
+</article>
+<!--End goals-->
+<!--Start vision-->
+<div class="vision">
+<div class="container">
+<h4>رؤية الموقع<i class="fa fa-quote-left"></i></h4>
+<ul>
+  <li>اتاحة امكانية الاعلان عن الخدمات الطبيه المتنوعه</li>
+  <li>نمكن الاطباء و اصحاب الخدمات الطبيه العامه و الخاصه من التسويق لخدماتهم</li>
+  <li>نوفر المزيد من الخيارات المتاحه للمريض لكي يختار الانسب حسب نوع الخدمه الطبيه والتكاليف</li>
+</ul>
+</div>
+</div>
+<!--End vision-->
+<!-- start Footer-->
+<footer><div class="container">
+  <h5>Copyright &copy; 2018 CodeBlue.Inc- All Rights Reserved.</h5>
+</div>
+</footer>
+<!--End footer-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/plugin.js"></script>
+</body>
+</html>

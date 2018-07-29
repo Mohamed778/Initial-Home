@@ -1,0 +1,139 @@
+
+/*start Header*/
+header{background: #222;}
+.half1{ margin: 1% 0; height: 15%}
+.half1 span{
+  line-height: 1%;
+  font-size: 230%;
+  font-weight: 700;
+  background: -webkit-linear-gradient( #209cff 0%, #68e0cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+.half1 span img:first-child{
+  width: 6%;
+  margin-top: -1%
+}
+.half1 >img{ width: 32%;
+    margin-top: -12%;
+    margin-bottom: -7%;
+}
+.half2{text-align: right; margin-top: 1%; margin-right: 10%}
+.half2 i{color:#888; padding: 1%; cursor: pointer; transition: all .5s ease-in-out}
+.half2 i:hover{color: #FFF}
+/*End Header */
+
+/*Start Section */
+section {position: relative; background: #EEE}
+section .content{width:80%;float: left; }
+section .content .over{
+  position: absolute;
+  margin:4% 25%;
+  width:30%;
+  height: 80%;
+  direction: rtl;
+  text-align: right;
+}
+#login ,#pharmacy, #clinic, #signup{display: none}
+input, select {margin-bottom: 5%;} button{margin-top:5%;}
+ #login span,p,#signup span{font-size: 120%; margin-right: 5%}
+ #login label,#signup label{color:#46c0e5; font-weight: 600; padding:2%; cursor: pointer;}
+  button i{padding-right: 5%}
+section aside .ui-layout-resizer{
+  position: absolute;
+  top: 0;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1px;
+  text-align: left;
+  overflow: hidden;
+  z-index: 999;
+  background:#E3fdf5;
+  border: none;
+  cursor: e-resize;
+  right: 19.8%;
+  height: 100%;
+  width: 6px;
+}
+section aside .list-group{
+  width:20%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  float: left;
+background: #333
+}
+
+section aside .list-group-item{
+  color: #46c0e5;
+  background: #111;
+   border: 1px solid #333;
+   margin-bottom: .7%;
+   text-align: center;
+   transition: All .5s ease-in-out
+ }
+ section aside .list-group-item:first-of-type{margin-top: 4%}
+  section aside .list-group-item:last-of-type{margin-top: 4%}
+section aside .list-group-item:hover, section aside .list-group-item.active {
+  background:#E3fdf5;
+  color: #111;
+   cursor: pointer;
+ border: none}
+
+/*End section */
+/*start goal*/
+.goal{direction: rtl; text-align: right; position: relative;}
+.goal h4{padding-top: 10%;color: #46c0e5; }
+.goal h4 i{margin-right: 2%}
+.goal ul{margin-top: 3%;color:#333; list-style: circle;}
+.goal ul>li{font-size: 125%}
+.goal:before
+{
+  content: "";
+  display: block;
+  position: absolute;
+  border-width: 25px;
+  border-style: solid;
+  border-color: #EEE;
+  margin: 0;
+  right: 49%;
+  border-radius: 15% 15% 40% 40% ;
+}
+/*End Goal*/
+/* start vision*/
+.vision{
+  background: #EEE;
+  position: relative;
+  direction: rtl;
+  text-align: right;
+  margin-top: 7%;
+  margin-bottom: -4%
+}
+.vision:before{
+ content: "";
+ display: block;
+ position: absolute;
+ border-width: 25px;
+ border-style: solid;
+ border-color: #fFF;
+ top:0;
+ right: 49%;
+ border-radius: 15% 15% 40% 40% ;
+}
+.vision h4{padding-top: 8%;color: #46c0e5; }
+.vision h4 i{margin-right: 2%}
+.vision ul{margin-top: 3%;color:#333; list-style: circle; padding-bottom: 7%}
+.vision ul>li{font-size: 125%}
+/* end vision*/
+/*Start Footer*/
+footer{background: #222;}
+footer h5{background: -webkit-linear-gradient( #209cff 0%, #68e0cf 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-top: 5%;
+padding-bottom: 2.5%;
+text-align: center;
+margin: auto;
+}
+/*End Footer*/
